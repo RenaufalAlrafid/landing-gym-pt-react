@@ -1,0 +1,92 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      screens:{
+        "2xl" :"1440px"
+      },
+      colors:{
+        primary:{
+            base: "#FFF8F8",
+            0: "#F5DBDB",
+            10: "#EFC4C4",
+            20: "#E6A6A6",
+            30: "#DE8888",
+            40: "#D66B6B",
+            50: "#CE4D4D",
+            60: "#AC4040",
+            70: "#893333",
+            80: "#672727",
+            90: "#451A1A",
+            100: "#290F0F", 
+        },
+        secondary:{
+            base:"#EBA95B",
+            0: "#FAE9D4",
+            10: "#F7DAB8",
+            20: "#F3C794",
+            30: "#F0B570",
+            40: "#ECA24D",
+            50: "#E89029",
+            60: "#C17822",
+            70: "#9B601B",
+            80: "#744815",
+            90: "#4D300E",
+            100: "#2E1D08",       
+        },
+        neutral:{
+          base: "#DFDFDF",
+          0: "#FFFFFF",
+          10: "#F4F4F4",
+          20: "#EFEFEF",
+          30: "#EAEAEA",
+          40: "#E4E4E4",
+          50: "#DFDFDF",
+          60: "#BABABA",
+          70: "#959595",
+          80: "#707070",
+          90: "#4A4A4A",
+          100: "#292929",    
+        },
+        success:{
+          0: "#EBF9E9",
+          10: "#DEF5DA",
+          20: "#CDEFC7",
+          30: "#BCEAB5",
+          40: "#ACE5A2",
+          50: "#9BE090",
+          60: "#81BB78",
+          70: "#679560",
+          80: "#4E7048",   
+          90: "#344B30",   
+          100: "#1F2D1D",   
+        },
+        error:{
+          0: "#EDE6FB",
+          10: "#E1D6F8",
+          20: "#D2C1F4",
+          30: "#C3ADF1",
+          40: "#B498ED",
+          50: "#A584EA",
+          60: "#896EC3",
+          70: "#6E589C",
+          80: "#534275",
+          90: "#372C4E", 
+          100: "#211A2F",  
+        },
+      },
+      // backgroundImage:{
+      //   'coffe1': "url('./assets/coffe1.png')",
+      // },
+      fontFamily:{
+        'satoshi' : ["satoshi", "sans-serif"],
+        'josefin' : ["Josefin Sans" , "sans-serif" ]
+      },
+    },
+  },
+  plugins: [],
+}
