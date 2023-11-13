@@ -38,8 +38,8 @@ export default function AboutSection() {
               <path
                 d="M163.125 10.6722C143.782 5.76844 121.938 4.88352 101.975 4.88352C88.3429 4.88352 75.1626 6.4126 61.5923 7.73194C49.6577 8.89224 38.735 12.0749 27.1816 15.1746C20.8859 16.8637 14.0639 20.1819 9.72353 25.19C4.3817 31.3536 -0.641505 40.6287 3.56728 48.3448C8.07181 56.6032 21.1723 60.5195 29.2949 63.6436C37.996 66.9902 47.0582 68.4849 56.263 69.7999C67.1783 71.3592 78.1293 73.3574 89.0657 74.6697C107.105 76.8344 125.107 78.4829 143.278 78.4829C156.211 78.4829 170.121 78.9394 182.788 76.1858C191.182 74.361 200.283 72.1463 207.137 66.538C212.547 62.1115 213.679 51.018 213.569 44.3938C213.217 23.2395 185.601 14.1285 173.048 1.57568"
                 stroke="black"
-                stroke-width="3"
-                stroke-linecap="round"
+                strokeWidth="3"
+                strokeLinecap="round"
               />
             </svg>
           </div>
@@ -76,23 +76,23 @@ export default function AboutSection() {
             <path
               d="M12.5 2.5H15.8333C16.2754 2.5 16.6993 2.67559 17.0118 2.98816C17.3244 3.30072 17.5 3.72464 17.5 4.16667V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H12.5"
               stroke="white"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M8.33325 14.1663L12.4999 9.99967L8.33325 5.83301"
               stroke="white"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M12.5 10H2.5"
               stroke="white"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </button>

@@ -4,21 +4,25 @@ import ProgramCard from './ProgramCard'
 export default function ProgramSection() {
   let propsProgramCard = [
     {
+      "id" : 0,
       "image":"gym1.png",
       "title":"Program A",
       "description":"Program description Program description Program Program description Program description Program Program description Program description Program Program description Program description Program"
     },
     {
+      "id": 1,
       "image":"gym1.png",
       "title":"Program B",
       "description":"Program description Program description Program Program description Program description Program Program description Program description Program Program description Program description Program"
     },
     {
+      "id": 2,
       "image":"gym1.png",
       "title":"Program C",
       "description":"Program description Program description Program Program description Program description Program Program description Program description Program Program description Program description Program"
     },
     {
+      "id": 3,
       "image":"gym1.png",
       "title":"Program D",
       "description":"Program description Program description Program Program description Program description Program Program description Program description Program Program description Program description Program"
@@ -33,7 +37,7 @@ export default function ProgramSection() {
         {
           propsProgramCard.map(props => {
             return(
-              <ProgramCard image={props.image} title={props.title} description={props.description}></ProgramCard>
+              <ProgramCard image={props.image} title={props.title} description={props.description} key={props.id}></ProgramCard>
             )
           })
         }
