@@ -3,7 +3,7 @@ import BMICalculator from "./BMICalculator";
 
 export default function BMICalculatorSection() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center pb-36">
       <div className="flex flex-col justify-center items-center">
         <h1 className="font-bold text-3xl pb-5">
         BMI Calculator

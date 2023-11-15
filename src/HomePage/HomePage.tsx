@@ -15,5 +15,6 @@ export default function HomePage() {
       <PortofolioSection></PortofolioSection>
       <BMICalculatorSection></BMICalculatorSection>
     </div>
+    
   )
 }

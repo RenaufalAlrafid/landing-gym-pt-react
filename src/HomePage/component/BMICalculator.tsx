@@ -21,7 +21,7 @@ export default function BMICalculator() {
       kg = weight;
     }
     let bmi = kg / (meter * meter);
-  setResult(bmi);
+    setResult(bmi);
   };
 
   const changeToUS = () => {
@@ -138,33 +138,33 @@ export default function BMICalculator() {
               viewBox="0 0 18 18"
               fill="none"
             >
-              <g clip-path="url(#clip0_48_445)">
+              <g clipPath="url(#clip0_48_445)">
                 <path
                   d="M5.895 1.5H12.105L16.5 5.895V12.105L12.105 16.5H5.895L1.5 12.105V5.895L5.895 1.5Z"
                   stroke="black"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M9 6V9"
                   stroke="black"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M9 12H9.0075"
                   stroke="black"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </g>
               <defs>
-                <clipPath id="clip0_48_445">
+                <cclipPath id="clip0_48_445">
                   <rect width="18" height="18" fill="white" />
-                </clipPath>
+                </cclipPath>
               </defs>
             </svg>
           </span>
