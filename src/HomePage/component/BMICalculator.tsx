@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 
 export default function BMICalculator() {
   const [unitType, setUnitType] = useState("US");
@@ -162,9 +162,9 @@ export default function BMICalculator() {
                 />
               </g>
               <defs>
-                <cclipPath id="clip0_48_445">
+                <clipPath id="clip0_48_445">
                   <rect width="18" height="18" fill="white" />
-                </cclipPath>
+                </clipPath>
               </defs>
             </svg>
           </span>

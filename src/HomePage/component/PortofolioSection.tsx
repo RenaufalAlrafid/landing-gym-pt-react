@@ -1,4 +1,3 @@
-import React from "react";
 import { CorousalImageSlide } from "./CorousalImageSlide";
 
 export const PortofolioSection = () => {

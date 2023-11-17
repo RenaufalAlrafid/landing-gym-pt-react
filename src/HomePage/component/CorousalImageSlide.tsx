@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const CorousalImageSlide = () => {
   const [Image, setImage] = useState(0);
-//   const [Image1, setImage1] = useState(0);
-//   const [Image2, setImage2] = useState(1);
+  //   const [Image1, setImage1] = useState(0);
+  //   const [Image2, setImage2] = useState(1);
 
   const images = [
     "/Image/porto1.jpg",
@@ -17,26 +17,23 @@ export const CorousalImageSlide = () => {
     "/Image/porto3.jpg",
   ];
 
-
   const set = images.length - 1;
 
   const clickNext = () => {
     if (Image !== set) {
       setImage(Image + 1);
-    //   setImage1(Image - 1);
-    //   setImage2(Image + 1);
+      //   setImage1(Image - 1);
+      //   setImage2(Image + 1);
     }
     console.log(Image);
     // console.log(images[Image2]);
-    
   };
 
   const clickBack = () => {
-    const set = images.length - 1;
     if (Image !== 0) {
       setImage(Image - 1);
-    //   setImage1(Image - 1);
-    //   setImage2(Image + 1);
+      //   setImage1(Image - 1);
+      //   setImage2(Image + 1);
       //   console.log(Image1);
     }
   };

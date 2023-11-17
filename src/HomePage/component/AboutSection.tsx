@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function AboutSection() {
   return (
     <div className="flex pt-16 pb-14 pl-36 pr-72 gap-7">
